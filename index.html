@@ -1,11 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/logo-fix.png" type="image/x-icon" />
     <title>Campus Profiles</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/form.css" />
+  </head>
+  <body>
+      <!-- MAIN PAGE  -->
+      <div class="main-page">
+        <!-- NAV_BAR -->
+        <div class="nav-bar">
+          <!-- logo -->
+          <a href="index.html"
+            ><div class="logo">
+              <img src="images/logo-fix.png" alt="" />
+              <span>CampusProfiles</span>
+            </div></a
+          >
+          <!-- logo -->
+
+          <!-- navbtns-section -->
+          <div class="nav-btns">
+            <ul>
+              <li>
+                <a href="#home"
+                  ><div class="btn1">
+                    <span>Home</span>
+                  </div></a
+                >
+              </li>
+              <li>
+                <a href="#about"
+                  ><div class="btn2">
+                    <span>About</span>
+                  </div></a
+                >
+              </li>
+              <li>
+                <div class="btn3">
+                  <span>Join</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!-- navbtns-section -->
+        </div>
+        <!-- NAV_BAR END -->
+
+        <!-- HOME -->
+        <hr id="home" />
+        <div class="home">
+          <h1>
+            <span id="black">Welcome to </span
+            ><span id="orange">Campus Profiles</span>
+          </h1>
+          <p>
+            Showcase your work and talent. <br />Create and manage your
+            professional profile easily.
+          </p>
+
+          <div class="btn" id="clickbtn">
+            <span>Join now</span>
+          </div>
+        </div>
+        <hr id="about" />
+        <!-- HOME END -->
+
+        <!-- ABOUT -->
+        <div class="about">
+          <h2>About Us</h2>
+          <div class="about-content">
+            <div class="about-text">
+              <h4>Your Pathway to Success</h4>
+              <p>
+                Campus Profiles is your go-to platform for showcasing your
+                academic journey and extracurricular achievements. We make it
+                easy for you to create a professional profile that stands out to
+                potential recruiters and collaborators. Whether you're a student
+                or a recruiter, our platform is designed to meet your needs with
+                efficiency and elegance.
+              </p>
+            </div>
+            <div class="about-image">
+              <img src="images/about-image.jpg" alt="About Campus Profiles" />
+            </div>
+          </div>
+          <div class="mission">
+            <h3>Our Mission</h3>
+            <p>
+              We aim to bridge the gap between education and opportunity by
+              providing students with the tools they need to present their
+              achievements in a professional and polished manner. Our mission is
+              to empower students to take control of their careers and showcase
+              their potential to the world.
+            </p>
+          </div>
+          <div class="offer">
+            <h3>What We Offer</h3>
+            <ul>
+              <li>
+                <strong>Student Resumes:</strong> Organize and present your
+                academic qualifications, work experience, and skills in a way
+                that gets noticed.
+              </li>
+              <li>
+                <strong>Portfolios:</strong> Showcase your projects,
+                assignments, and creative work that highlight your practical
+                skills.
+              </li>
+              <li>
+                <strong>Achievements:</strong> Display your awards,
+                recognitions, and extracurricular accomplishments to stand out.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- ABOUT END -->
+      </div>
+      <!-- MAIN PAGE END -->
+    <!-- LOG_IN and SIGN_IN FORM -->
+    <div class="login-signup"></div>
+    <div class="wrapper" id="wrapper">
+      <div class="title-text">
+        <div class="title login">Login</div>
+        <div class="title signup">Signup</div>
+      </div>
+      <div class="form-container">
+        <div class="slide-controls">
+          <input type="radio" name="slide" id="login" checked />
+          <input type="radio" name="slide" id="signup" />
+          <label for="login" class="slide login">Login</label>
+          <label for="signup" class="slide signup">Signup</label>
+          <div class="slider-tab"></div>
+        </div>
+        <div class="form-inner">
+          <form action="#" class="login">
+            <div class="field">
+              <input type="text" placeholder="Email Address" required />
+            </div>
+            <div class="field">
+              <input type="password" placeholder="Password" required />
+            </div>
+            <div class="pass-link"><a href="#">Forgot password?</a></div>
+            <div class="field btn">
+              <div class="btn-layer"></div>
+              <input type="submit" value="Login" />
+            </div>
+            <div class="signup-link">
+              Not a member? <a href="">Signup now</a>
+            </div>
+          </form>
+          <form action="#" class="signup">
+            <div class="field">
+              <input type="text" placeholder="Email Address" required />
+            </div>
+            <div class="field">
+              <input type="password" placeholder="Password" required />
+            </div>
+            <div class="field">
+              <input type="password" placeholder="Confirm password" required />
+            </div>
+            <div class="field btn">
+              <div class="btn-layer"></div>
+              <input type="submit" value="Signup" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- LOG_IN and SIGN_IN FORM END-->
+    <!-- JavaScript -->
+    <script src="JS/script.js"></script>
+    <script src="JS/scriptform.js"></script>
+  </body>
 </html>
